@@ -25,211 +25,138 @@ get_header(); ?>
 
 <section id="home-solucoes">
 	<div class="container">
-		<div class="row fadeInUp wow">
-			<h1>Entenda o que é o Coaching e quais <br> são os seus benefícios</h1>
-			<h4>O Coaching é uma abordagem pragmática com foco na realização de um ou mais objetivos específicos.<br> Coaching não é ​terapia, aconselhamento, psicologia, consultoria ou mentoring. </h4>
-		</div><br/><br/>
-		<div class="row fadeIn wow">
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."logistica-reversa"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Logística Reversa
-				</h3>
-				<a href="<?php echo home_url( '/' )."logistica-reversa"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Transporte de Cargas
-				</h3>
-				<a href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Armazenagem
-				</h3>
-				<a href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."entrega-expressa"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Entrega Expressa
-				</h3>
-				<a href="<?php echo home_url( '/' )."entrega-expressa"; ?>">saiba mais ></a>
-			</div>
-		</div><br>
-		<div class="row fadeIn wow">
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Impressão de Dados
-				</h3>
-				<a href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Fullfilment
-				</h3>
-				<a href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Digitalização de Documentos
-				</h3>
-				<a href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">saiba mais ></a>
-			</div>
-			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">
-					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" />
-					<div class="middle">
-						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
-					</div>
-				</a>
-				<h3>
-					Logística para Empresas
-				</h3>
-				<a href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">saiba mais ></a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="home-atuacoes">
-	<div class="container">
-		<div class="row fadeInUp wow">
-			<div class="col-md-12">
-				<h2 class="titulo-linha">Segmentos de atuação</h2>
-				<p>Confira se o seu segmento está em nossa área de atuação</p>
-			</div>
-		</div><br/><br/>
-		<div class="row fadeInUp wow">
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao1.png"; ?>" />
-				<h3>Acessórios e Ferramentas</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao2.png"; ?>" />
-				<h3>Peças Automotivas</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao3.png"; ?>" />
-				<h3>Roupas</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao4.png"; ?>" />
-				<h3>Produtos Têxteis</h3>
-			</div>
-		</div><br><br>
-		<div class="row fadeInUp wow">
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao5.png"; ?>" />
-				<h3>Eletroportáteis</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao6.png"; ?>" />
-				<h3>Bijuterias</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao7.png"; ?>" />
-				<h3>Brinquedos</h3>
-			</div>
-			<div class="col-md-3">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao8.png"; ?>" />
-				<h3>Livros</h3>
-			</div>
-		</div><br><br>
-		<div class="row fadeInUp wow">
-			<div class="col-md-12">
-				<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-azulclaro">Calcular Frete</a>
-				<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Faça um Orçamento</a>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="home-mobidata">
-	<div class="container">
-		<div class="row fadeInUp wow">
-			<h1 class="titulo-linha">Aplicativo Mobidata</h1>
-			<div class="separador"></div>
-		</div>
-		<div class="row fadeInUp wow">
-			<div class="col-md-8 col-md-offset-2">
-				<p>
-					<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. <br>
-						Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
-				</p><br/><br/>
+		<div class="row">
+			<div class="col-md-12 fadeInUp wow">
+				<h1>Entenda o que é o Coaching e quais <br> são os seus benefícios</h1>
+				<h4>O Coaching é uma abordagem pragmática com foco na realização de um ou mais objetivos específicos.<br>
+Coaching não é ​terapia, aconselhamento, psicologia, consultoria ou mentoring. </h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-7 text-left fadeInUp wow">
-				<h2 class="">Mobidata</h2>
-				<p>
-					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados. <br>
-					As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida.	
-				</p>					
-				<div class="separadorb"></div>
-				<ul class="mobi-vantagens">
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Baixa em tempo real</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Digitalização em tempo real</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Prova incontestável da visita através de foto do domicílio</div></li>
-					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
-				</ul>
-				<h2>Baixe o aplicativo</h2><br>
-				<a class="pull-left" style="margin-right:20px;" href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a>
-				<a href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
+			<div class="col-md-6 text-left fadeInLeft wow">
+				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching1.jpg"; ?>" />
+				<h3>Vida Pessoal ​</h3>
+				<p>Produz mudanças profundas e significativas na qualidade de vida, nível de satisfação, realizações e conquistas do cliente.</p>
 			</div>
-			<div class="col-md-5 fadeInRight wow" data-wow-delay="0.5s">
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
+			<div class="col-md-6 text-left fadeInRight wow">
+				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching2.jpg"; ?>" />
+				<h3>Vida Profissional ​</h3>
+				<p>Promove evolução na carreira ou negócio do cliente. 
+Essa evolução ocorre como consequência natural do 
+trabalho do coaching.</p>
 			</div>
 		</div>
-	</div>		
-</section>
-<div class="modal fade" id="myModala" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-body text-left">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/WU3pjU0QdjA?rel=0" frameborder="0" allowfullscreen></iframe>
+		<div class="row">
+			<div class="col-md-6  text-left fadeInLeft wow">
+				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching3.jpg"; ?>" />
+				<h3>Relacionamento</h3>
+				<p>Trabalha questões como insegurança, timidez, baixa 
+autoestima e diversas outras questões que podem
+estar fixadas no seu inconsciente.</p>
+			</div>
+			<div class="col-md-6 text-left fadeInRight wow">
+				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching4.jpg"; ?>" />
+				<h3>Qualidade de Vida</h3>
+				<p>Indicado para quem está em busca de um
+aprimoramento pessoal, ampliando horizontes 
+e se dispondo a dar novo rumo a sua vida.</p>
+			</div>
+		</div>
+		<div class="row fadeInUp wow">
+			<div class="col-md-8 col-md-offset-2">
+				<p>O Coaching é um processo que visa potencializar o nível de resultados positivos nas diversas áreas da 
+vida de um cliente (coachee), grupo ou empresa, por meio de ferramentas, metodologias, e técnicas 
+conduzidas por um profissional (Coach), ele permite que você acelere o processo de evolução e 
+antecipe resultados.   </p>
+			</div>
+		</div>
+		<div class="row fadeInUp wow">
+			<div class="col-md-8 col-md-offset-2">
+				<a class="btn-rosa" href="<?php echo home_url( '/coaching' ); ?>">saiba mais</a>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
+
+<section id="home-sobre" class="fadeIn wow">
+	<div class="container">
+		<div class="row fadeInUp wow text-left">
+			<div class="col-md-6 col-md-offset-6">
+				<h2>Regiane Kiiro <img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/titulo-detalhe.jpg"; ?>" /></h2>
+			</div>
+		</div>
+		<div class="row text-left">
+			<div class="col-md-6 col-md-offset-6">
+				<p class="fadeInUp wow ">Oi! Sou Regiane Kiiro, mãe da Bruna de 21 anos e do Thiago de 5 anos. 
+	Sou Paulistana do bairro da Saúde e cresci na Zona Leste de São Paulo. 
+	Me formei em Administração de Empresas com ênfase na área 
+	hospitalar, porém, não me sentia realizada e plena em minha profissão 
+	e em busca de melhor qualidade de vida decidi mudar para Londres na 
+	Inglaterra, onde atuei durante  8 anos anos no mercado europeu.</p>
+				<p class="fadeInUp wow ">Neste período ocorreu o meu primeiro contato com o coaching, durante 
+	um episódio de depressão ocasionado por conta de um divórcio 
+	turbulento. Em busca de ajuda para mudar o meu nível de insatisfação 
+	com a fase que vivia, iniciei as sessões de coaching e de cara me 
+	apaixonei! </p>
+				<p class="fadeInUp wow ">O Coaching me proporcionou autoconhecimento, desenvolvimento 
+	pessoal e resultados maiores que o esperado em tempo recorde. 
+	E mais, me ajudou a descobrir o meu propósito de vida, a minha 
+	missão. Ajudar pessoas! Cooperar com o maior número delas para 
+	que assim como eu, conquistem seus objetivos, seus sonhos, e tenham 
+	a real noção de seus valores e capacidades.</p>
+				<p class="fadeInUp wow ">Hoje atuo como Coach e Analista Comportamental DISC, com 
+	Certificação Internacional pela SLAC; para somar a minha atuação como 
+	Coach, estou pós graduando em Terapia Familiar Sistêmica pelo CEFATEF. 
+	Enfim posso dizer, sem sombra de dúvidas, que sou apaixonada pelo que 
+	faço e me sinto completamente realizada com a minha profissão. </p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="home-depoimento">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2  fadeInUp wow">
+				<h2>Depoimentos de nossos clientes</h2><br>
+				<h4>Confira os depoimentos de quem já realizaram suas reformas com a gente!</h4>
+			</div>
+		</div><br><br><br>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 text-center">
+				<div class="dep-conteudo  fadeInUp wow">
+					“Coaching não é ​terapia, 
+aconselhamento, 
+psicologia, consultoria 
+ou mentoring. ”<br>
+					<div class="dep-foto imga"></div>
+				</div>
+				<h4>@maria</h4>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.25s">
+					“Coaching não é ​terapia, 
+aconselhamento, 
+psicologia, consultoria 
+ou mentoring. ”<br>
+					<div class="dep-foto imgb"></div>
+				</div>
+				<h4>@maria</h4>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.5s">
+					“Coaching não é ​terapia, 
+aconselhamento, 
+psicologia, consultoria 
+ou mentoring. ”<br>
+					<div class="dep-foto imgc"></div>
+				</div>
+				<h4>@maria</h4>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php get_template_part( 'template-parts/parceiros'); ?>
+
 <?php get_footer(); ?>

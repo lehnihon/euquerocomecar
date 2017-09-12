@@ -1,25 +1,31 @@
 <?php
 get_header(); ?>
 
-<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Contato</h1>
+		</div>
+	</div>
+</div><br><br>
 
-<section id="orcamento">
+<section id="contato">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<h1 class="small">Cobrança</h1>
-				<h5>Por favor, preencha todos os campos</h5><br>
-				<?php echo do_shortcode('[contact-form-7 id="557" title="Contato"]'); ?>
+			<div class="col-md-6 text-left">
+				<h3>Entre em contato comigo, responderei o mais breve</h3><br>
+				form
 			</div>
-			<div class="col-md-6">
-				<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-				<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-				<div class="tel-botao">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-				</div>
+			<div class="col-md-5 col-md-offset-1 text-left">
+				<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/whats.jpg"; ?>" />
+			    <span>11 94245-7275</span><br><br>
+			    <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/email2.jpg"; ?>" />
+			    <span>regiane@euquerorecomecar.com.br</span>
 			</div>
 		</div>
 	</div>
 </section> 
+
+<?php get_template_part( 'template-parts/parceiros' ); ?>
 
 <?php get_footer(); ?>
