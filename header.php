@@ -70,17 +70,17 @@ new WOW().init();
 							<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
 							><li><a href="<?php echo home_url( '/sobre-mim' ); ?>">Sobre mim</a></li
 							><li><a href="<?php echo home_url( '/para-voce' ); ?>">Para você</a></li
-							><li><a target="_blank" href="<?php echo home_url( '/coaching' ); ?>">Coaching</a></li
-							><li><a href="<?php echo home_url( '/blog' ); ?>">Blog</a></li
+							><li><a href="<?php echo home_url( '/coaching' ); ?>">Coaching</a></li
+							><li><a target="_blank"  href="<?php echo home_url( '/blog' ); ?>">Blog</a></li
 							><li><a href="<?php echo home_url( '/contato' ); ?>">Contato</a></li
 							><li><a href="<?php echo home_url( '/contato' ); ?>">Preciso de Coaching?</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/contato' ); ?>">Preciso de Coaching?</a></div>
-							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/contato' ); ?>">Contato</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/contato' ); ?>">Contato</a></div>
 							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/blog' ); ?>">Blog</a></div>
-							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/coaching' ); ?>">Coaching</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/coaching' ); ?>">Coaching</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/para-voce' ); ?>">Para você</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/sobre-mim' ); ?>">Sobre mim</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>

@@ -20,7 +20,7 @@ get_header(); ?>
 				$i = 1;
 				$args = array(
 
-					'posts_per_page' => 9,
+					'posts_per_page' => 12,
 				    'orderby' => 'post_date',
 				    'order' => 'DESC',
 				    'paged' => $paged);

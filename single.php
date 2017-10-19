@@ -1,6 +1,6 @@
 <?php
 get_header('blog'); ?>
-<section id="blog">
+<section id="blog-single">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-left">

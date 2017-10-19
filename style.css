@@ -280,6 +280,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .para-voce {
     background-color: #FFF !important;
     padding-bottom: 0 !important; }
+  #page section#blog-single {
+    padding-bottom: 60px; }
   #page section#blog {
     padding-bottom: 20px; }
     #page section#blog .col-md-4 {
