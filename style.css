@@ -56,9 +56,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-bottom: 10px; }
     #page section#header header {
       color: white;
-      background: linear-gradient(90deg, #55acee 50%, #f09907 50%); }
+      background: linear-gradient(90deg, #00adf0 50%, #ff9a00 50%); }
       #page section#header header .container {
-        background-color: #55acee; }
+        background-color: #00adf0; }
       #page section#header header .row {
         padding-top: 10px;
         padding-bottom: 10px; }
@@ -136,18 +136,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#header nav form.search-form input.pesquisar-submit {
         float: left; }
       #page section#header nav div.menu-header {
-        margin-top: 40px; }
+        margin-top: 47px; }
         #page section#header nav div.menu-header div.menu-op {
           float: right;
           margin-left: 35px;
           position: relative; }
           #page section#header nav div.menu-header div.menu-op a {
-            color: #55acee; }
+            color: #00adf0; }
           #page section#header nav div.menu-header div.menu-op a:hover {
             color: #88c4f3; }
           #page section#header nav div.menu-header div.menu-op a.orcamento {
             border-radius: 25px;
-            background-color: #f94877;
+            background-color: #ff4679;
             color: #FFF;
             padding: 10px 15px; }
           #page section#header nav div.menu-header div.menu-op a.orcamento:hover {
@@ -197,8 +197,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: block; }
     #page div.menu-header-blog {
       display: block; } }
-  #page section#banner {
-    margin-bottom: 40px; }
   #page section#home-sobre {
     padding: 80px 0;
     background-image: url("images/sobre.jpg");
@@ -208,7 +206,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    background-color: #55acee;
+    background-color: #00adf0;
+    background-attachment: fixed;
     color: #FFF; }
     #page section#home-sobre h2 {
       color: #FFF;
@@ -247,12 +246,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block;
       background-color: #FFF;
       color: #5f5f5f;
-      padding: 35px 25px;
-      padding-bottom: 0px;
+      padding: 35px 20px;
+      padding-bottom: 55px;
       border-radius: 10px;
       line-height: 22px;
-      width: 250px;
-      margin-bottom: 55px; }
+      margin-bottom: 65px;
+      font-size: 12px;
+      position: relative; }
+      #page section#home-depoimento .dep-conteudo .veja-mais {
+        display: none; }
+      #page section#home-depoimento .dep-conteudo .veja-mais-btn {
+        margin-top: 10px;
+        text-align: center;
+        display: block; }
       #page section#home-depoimento .dep-conteudo .dep-foto {
         border-radius: 50%;
         border: 1px solid #5f5f5f;
@@ -260,23 +266,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         width: 80px;
         height: 80px;
         color: black;
-        position: relative;
-        top: 40px;
-        left: 33%; }
+        position: absolute;
+        bottom: -40px;
+        left: 40%; }
       #page section#home-depoimento .dep-conteudo .imga {
-        background-image: url("images/depoimento.jpg");
-        background-size: contain;
+        background-image: url("images/Eu Quero Recomecar Depoimento Everton Silva.jpg");
+        background-size: cover;
         background-repeat: no-repeat; }
       #page section#home-depoimento .dep-conteudo .imgb {
-        background-image: url("images/depoimento.jpg");
-        background-size: contain;
+        background-image: url("images/Eu Quero Recomecar Depoimento Poliana Rafaela Barbosa.jpg");
+        background-size: cover;
         background-repeat: no-repeat; }
       #page section#home-depoimento .dep-conteudo .imgc {
-        background-image: url("images/depoimento.jpg");
-        background-size: contain;
+        background-image: url("images/Eu Quero Recomecar Depoimento Ednalva S Moura.jpg");
+        background-size: cover;
         background-repeat: no-repeat; }
   #page section#parceiros {
     padding: 60px 0; }
+    #page section#parceiros .parceiros-linha {
+      list-style-type: none;
+      box-sizing: border-box; }
+      #page section#parceiros .parceiros-linha:after {
+        clear: both; }
+      #page section#parceiros .parceiros-linha li {
+        float: left;
+        width: 33.3%; }
   #page .para-voce {
     background-color: #FFF !important;
     padding-bottom: 0 !important; }
@@ -293,13 +307,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin: 10px 0; }
   @media (max-width: 991px) {
     #page section#home-sobre {
-      -webkit-background-size: auto;
-      -moz-background-size: auto;
-      -o-background-size: auto;
-      background-size: auto;
-      background-position: -300px top; } }
+      background-image: none; }
+    #page section#parceiros .parceiros-linha li {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px; } }
   #page section#footer {
-    background-color: #127cc1;
+    background-color: #007dc4;
     padding: 50px 0;
     color: white;
     background-image: url("images/fundo-bot.jpg");
@@ -384,11 +398,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: inline-block; }
   #page section#copyright {
     padding: 30px 0;
-    background-color: #0c69a6;
+    background-color: #007dc4;
     color: #FFF; }
   @media (max-width: 991px) {
-    #page section#footer ul.menu-footer {
+    #page section#footer ul.redes_sociais_header {
+      display: none; }
+    #page section#footer .btn-bot {
       display: none; } }
+  #page .azul {
+    color: #007dc5 !important; }
   #page .input-receba {
     border: 0;
     padding: 10px;

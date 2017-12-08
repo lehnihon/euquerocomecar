@@ -23,7 +23,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row fadeInUp wow text-left">
 			<div class="col-md-6 col-md-offset-6">
-				<h2>Regiane Kiiro <img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/titulo-detalhe.jpg"; ?>" /></h2>
+				<h2>Regiane Kiiro <img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/titulo_detalhe.png"; ?>" /></h2>
 			</div>
 		</div>
 		<div class="row text-left">

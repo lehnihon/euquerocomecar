@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<?php
-			echo do_shortcode("[metaslider id=28]"); 
+			echo do_shortcode("[metaslider id=14]"); 
 			?>
 		</div>
 	</div>
@@ -82,7 +82,7 @@ antecipe resultados.   </p>
 	<div class="container">
 		<div class="row fadeInUp wow text-left">
 			<div class="col-md-6 col-md-offset-6">
-				<h2>Regiane Kiiro <img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/titulo-detalhe.jpg"; ?>" /></h2>
+				<h2>Regiane Kiiro <img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/titulo_detalhe.png"; ?>" /></h2>
 			</div>
 		</div>
 		<div class="row text-left">
@@ -119,39 +119,32 @@ antecipe resultados.   </p>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2  fadeInUp wow">
 				<h2>Depoimentos de nossos clientes</h2><br>
-				<h4>Confira os depoimentos de quem já realizaram suas reformas com a gente!</h4>
+				<h4>Confira os depoimentos das pessoas que foram transformadas com nosso processo de coaching</h4>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-3 col-md-offset-1 text-center">
+			<div class="col-md-4 text-center">
 				<div class="dep-conteudo  fadeInUp wow">
-					“Coaching não é ​terapia, 
-aconselhamento, 
-psicologia, consultoria 
-ou mentoring. ”<br>
+					“Em Julho de 2016 iniciei um processo de coaching com a Regiane Kiiro, com foco em autoconhecimento e desenvolvimento pessoal, algo que eu estava precisando muito naquele momento. <a class="veja-mais-btn"  href="#">veja mais</a><span class="veja-mais">Foram sessões intensas e verdadeiras, que me ajudaram a avançar 5 anos em apenas 3 meses.
+Na verdade eu sinto os efeitos das sessões de coaching até hoje em minha vida e creio que o processo de coaching é contínuo. A ajuda que eu recebi dela fez toda a diferença no meu desenvolvimento pessoal.”</span>
 					<div class="dep-foto imga"></div>
 				</div>
-				<h4>@maria</h4>
+				<h4>Everton Silva - SP</h4>
 			</div>
 			<div class="col-md-4 text-center">
 				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.25s">
-					“Coaching não é ​terapia, 
-aconselhamento, 
-psicologia, consultoria 
-ou mentoring. ”<br>
+					“Antes de iniciar as sessões de coaching eu estava completamente perdida, não fazia ideia do que queria para minha vida, eram tantos planos e a ansiedade tomava conta de mim.<a class="veja-mais-btn"  href="#">veja mais</a><span class="veja-mais">A Regiane com seu trabalho maravilhoso me ajudou profundamente. Ao decorrer das sessões eu consegui organizar minha vida, tirei todos os obstáculos que eu acreditava ter, comecei a enxergar o que eu realmente gostava e queria. A Regiane conseguiu através das ferramentas de coaching me fazer enxergar aquilo que eu realmente queria para minha vida e tracei metas que já consegui alcançar.”</span>
 					<div class="dep-foto imgb"></div>
 				</div>
-				<h4>@maria</h4>
+				<h4>Poliana Rafaela Barbosa - SP</h4>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-md-4 text-center">
 				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.5s">
-					“Coaching não é ​terapia, 
-aconselhamento, 
-psicologia, consultoria 
-ou mentoring. ”<br>
+					“Quando iniciei a sessão de coaching minha vida estava totalmente sem foco e objetivo. A cada sessão uma descoberta, realização, direcionamento.
+ Com o coaching obtive resultados extraordinários em todas as áreas da minha vida.<a class="veja-mais-btn"  href="#">veja mais</a> <span class="veja-mais">Adquiri equilíbrio e respeito familiar, no trabalho e entre amigos. A minha vida mudou completamente. Gratidão eterna e lhe espero em Picos-Piauí para também transformar outras vidas.”</span>
 					<div class="dep-foto imgc"></div>
 				</div>
-				<h4>@maria</h4>
+				<h4>Ednalva S Moura - Picos/PI</h4>
 			</div>
 		</div>
 	</div>

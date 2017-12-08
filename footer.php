@@ -19,7 +19,7 @@
 			</div><!-- .row -->
 			<div class="row fadeInUp wow"><br>
 				<div class="col-md-8 col-md-offset-2">
-					<a class="btn-bot" href="<?php echo esc_url( home_url( '/coaching' ) ); ?>">Saiba se você precisa de Coaching</a>
+					<a class="btn-bot" href="<?php echo esc_url( home_url( '/coaching' ) ); ?>">Saiba um pouco mais sobre Coaching</a>
 				</div>
 			</div>
 			<div class="row fadeInUp wow">
@@ -37,7 +37,7 @@
 			<div class="row fadeInUp wow">
 				<div class="col-md-3 col-md-offset-5">
 					<ul class="redes_sociais_header">
-			              <li class="youtube"><a target="_blank" href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.facebook.com/euquerorecomecar/"></a></li>
 			              <li class="instagram"><a target="_blank" href="#"></a></li>
 			              <li class="twitter"><a target="_blank" href="#"></a></li>
 			              <li class="facebook"><a target="_blank" href="#"></a></li>

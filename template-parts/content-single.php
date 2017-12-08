@@ -8,7 +8,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" class="text-left article-single row">
-	<header class="entry-header col-md-6">
+	<header class="entry-header col-md-12">
 		<?php if ( has_post_thumbnail() && !is_search() ) { ?>
 			<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'quark' ), the_title_attribute( 'echo=0' ) ) ); ?>">
 				<?php the_post_thumbnail('', array(
@@ -18,7 +18,8 @@
 		<?php } ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content col-md-6">
+	<div class="entry-content col-md-12">
+		<br>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		<?php the_content(); ?>
 		<?php

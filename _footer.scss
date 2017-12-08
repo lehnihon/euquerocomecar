@@ -1,5 +1,5 @@
 section#footer{
-	background-color:#127cc1;
+	background-color:#007dc4;
 	padding:50px 0;
 	color: white;
     background-image: url("images/fundo-bot.jpg");
@@ -120,15 +120,19 @@ section#footer{
 
 section#copyright{
     padding:30px 0;
-    background-color:#0c69a6;
+    background-color:#007dc4;
     color:#FFF;
 }
 
 @media (max-width: 991px) {  
 	section#footer{
-		ul.menu-footer{
-			display: none;
-		}
+		ul.redes_sociais_header{
+            display:none;
+        }
+
+        .btn-bot{
+            display:none;
+        }
 	}
 }
 
