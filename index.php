@@ -17,7 +17,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<?php
-			echo do_shortcode("[metaslider id=14]"); 
+			echo do_shortcode("[metaslider id=4]"); 
 			?>
 		</div>
 	</div>
@@ -87,7 +87,7 @@ antecipe resultados.   </p>
 		</div>
 		<div class="row text-left">
 			<div class="col-md-6 col-md-offset-6">
-				<p class="fadeInUp wow ">Oi! Sou Regiane Kiiro, mãe da Bruna de 21 anos e do Thiago de 5 anos. 
+				<p class="fadeInUp wow ">Oi! Sou Regiane Kiiro, mãe da Bruna e do Thiago. 
 	Sou Paulistana do bairro da Saúde e cresci na Zona Leste de São Paulo. 
 	Me formei em Administração de Empresas com ênfase na área 
 	hospitalar, porém, não me sentia realizada e plena em minha profissão 

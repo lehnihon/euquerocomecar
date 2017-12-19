@@ -14,7 +14,11 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-6 text-left">
 				<h3>Entre em contato comigo, responderei o mais breve</h3><br>
-				form
+				<?php while ( have_posts() ) : the_post(); ?>
+
+						<?php the_content(); ?>
+
+					<?php endwhile; // End of the loop. ?>
 			</div>
 			<div class="col-md-5 col-md-offset-1 text-left">
 				<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/whats.jpg"; ?>" />

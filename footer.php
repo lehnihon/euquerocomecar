@@ -39,9 +39,9 @@
 					<ul class="redes_sociais_header">
 			              <li class="youtube"><a target="_blank" href="https://www.facebook.com/euquerorecomecar/"></a></li>
 			              <li class="instagram"><a target="_blank" href="#"></a></li>
-			              <li class="twitter"><a target="_blank" href="#"></a></li>
+			              <li class="twitter"><a target="_blank" href="https://www.instagram.com/coachregianekiiro"></a></li>
 			              <li class="facebook"><a target="_blank" href="#"></a></li>
-			              <li class="linkedin"><a target="_blank" href="#"></a></li>
+			              <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/regiane-kiiro-7940265b/"></a></li>
 					</ul>
 				</div>
 			</div>

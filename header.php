@@ -32,6 +32,9 @@ new WOW().init();
   js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
 <div id="page">
 	<section id="header">
 		<header>
@@ -39,16 +42,16 @@ new WOW().init();
 				<div class="row">
 					<div class="col-md-2">
 			            <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.png"; ?>" />
-			            <span>11 1234-5678</span>
+			            <span>11 94245-7275</span>
 			          </div>
-			          <div class="col-md-3">
+			          <div class="col-md-4">
 			            <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/email.png"; ?>" />
-			            <span>contato@euquerocomecar.com.br</span>
+			            <span>regiane@euquerorecomecar.com.br</span>
 			          </div>
-					<div class="col-md-3 col-md-offset-4">
+					<div class="col-md-3 col-md-offset-3">
 						<ul class="redes_sociais_header clearfix">
-			              <li class="youtube"><a target="_blank" href="#"></a></li>
-			              <li class="instagram"><a target="_blank" href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.linkedin.com/in/regiane-kiiro-7940265b/"></a></li>
+			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/coachregianekiiro"></a></li>
 			              <li class="twitter"><a target="_blank" href="#"></a></li>
 			              <li class="facebook"><a target="_blank" href="#"></a></li>
 			              <li class="linkedin"><a target="_blank" href="https://www.facebook.com/euquerorecomecar/"></a></li>
