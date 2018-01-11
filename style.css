@@ -217,6 +217,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         display: inline-block; }
     #page section#home-sobre p {
       line-height: 1.6; }
+  #page section#desc-sobre {
+    padding: 80px 0;
+    background-image: url("images/sobre.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #00adf0;
+    color: #FFF; }
+    #page section#desc-sobre h2 {
+      color: #FFF;
+      margin-bottom: 40px;
+      font-size: 30px; }
+      #page section#desc-sobre h2 img {
+        display: inline-block; }
+    #page section#desc-sobre p {
+      line-height: 1.6; }
   #page section#home-solucoes {
     background-color: #f6f8fb;
     padding-top: 80px;

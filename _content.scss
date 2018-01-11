@@ -30,6 +30,33 @@ section#home-sobre{
     }
 }
 
+section#desc-sobre{
+	padding:80px 0;
+	background-image: url("images/sobre.jpg");
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-color: #00adf0;
+    color:#FFF;
+
+    h2{
+    	color:#FFF;
+    	margin-bottom:40px;
+    	font-size:30px;
+
+    	img{
+    		display:inline-block;
+    	}
+    }
+
+    p{
+    	line-height:1.6;
+    }
+}
+
 section#home-solucoes{
 	background-color:#f6f8fb;
 	padding-top:80px;

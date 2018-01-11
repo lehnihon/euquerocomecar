@@ -27,9 +27,9 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 fadeInUp wow">
-				<h1>Entenda o que é o Coaching e quais <br> são os seus benefícios</h1>
+				<h1>Entenda o que é o Coaching e quais são os seus benefícios</h1>
 				<h4>O Coaching é uma abordagem pragmática com foco na realização de um ou mais objetivos específicos.<br>
-Coaching não é ​terapia, aconselhamento, psicologia, consultoria ou mentoring. </h4>
+Coaching não é terapia, aconselhamento, psicologia, consultoria ou mentoring. </h4>
 			</div>
 		</div>
 		<div class="row">
@@ -42,8 +42,8 @@ Coaching não é ​terapia, aconselhamento, psicologia, consultoria ou 
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching2.jpg"; ?>" />
 				<h3>Vida Profissional ​</h3>
 				<p>Promove evolução na carreira ou negócio do cliente. 
-Essa evolução ocorre como consequência natural do 
-trabalho do coaching.</p>
+Essa evolução ocorre como consequência natural do 
+trabalho do coaching.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -65,9 +65,9 @@ e se dispondo a dar novo rumo a sua vida.</p>
 		<div class="row fadeInUp wow">
 			<div class="col-md-8 col-md-offset-2">
 				<p>O Coaching é um processo que visa potencializar o nível de resultados positivos nas diversas áreas da 
-vida de um cliente (coachee), grupo ou empresa, por meio de ferramentas, metodologias, e técnicas 
-conduzidas por um profissional (Coach), ele permite que você acelere o processo de evolução e 
-antecipe resultados.   </p>
+vida de um cliente (coachee), grupo ou empresa, por meio de ferramentas, metodologias, e técnicas 
+conduzidas por um profissional (Coach), ele permite que você acelere o processo de evolução e 
+antecipe resultados.   </p>
 			</div>
 		</div>
 		<div class="row fadeInUp wow">
@@ -92,18 +92,18 @@ antecipe resultados.   </p>
 	Me formei em Administração de Empresas com ênfase na área 
 	hospitalar, porém, não me sentia realizada e plena em minha profissão 
 	e em busca de melhor qualidade de vida decidi mudar para Londres na 
-	Inglaterra, onde atuei durante  8 anos anos no mercado europeu.</p>
+	Inglaterra, onde atuei durante  8 anos anos no mercado europeu.</p>
 				<p class="fadeInUp wow ">Neste período ocorreu o meu primeiro contato com o coaching, durante 
 	um episódio de depressão ocasionado por conta de um divórcio 
 	turbulento. Em busca de ajuda para mudar o meu nível de insatisfação 
 	com a fase que vivia, iniciei as sessões de coaching e de cara me 
-	apaixonei! </p>
+	apaixonei! </p>
 				<p class="fadeInUp wow ">O Coaching me proporcionou autoconhecimento, desenvolvimento 
 	pessoal e resultados maiores que o esperado em tempo recorde. 
 	E mais, me ajudou a descobrir o meu propósito de vida, a minha 
 	missão. Ajudar pessoas! Cooperar com o maior número delas para 
-	que assim como eu, conquistem seus objetivos, seus sonhos, e tenham 
-	a real noção de seus valores e capacidades.</p>
+	que assim como eu, conquistem seus objetivos, seus sonhos, e tenham 
+	a real noção de seus valores e capacidades.</p>
 				<p class="fadeInUp wow ">Hoje atuo como Coach e Analista Comportamental DISC, com 
 	Certificação Internacional pela SLAC; para somar a minha atuação como 
 	Coach, estou pós graduando em Terapia Familiar Sistêmica pelo CEFATEF. 

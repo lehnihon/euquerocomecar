@@ -19,7 +19,7 @@ get_header(); ?>
 		</div>
 	</div>
 </div><br><br>
-<section id="home-sobre" class="fadeIn wow">
+<section id="desc-sobre" class="fadeIn wow">
 	<div class="container">
 		<div class="row fadeInUp wow text-left">
 			<div class="col-md-6 col-md-offset-6">
