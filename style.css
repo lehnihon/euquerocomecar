@@ -240,17 +240,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #f6f8fb;
     padding-top: 80px;
     padding-bottom: 60px; }
+    #page section#home-solucoes .cont-left {
+      width: 25%;
+      float: left;
+      margin-right: 5%; }
+    #page section#home-solucoes .cont-right {
+      width: 65%;
+      float: right;
+      padding-right: 5%; }
     #page section#home-solucoes h1 {
       margin-bottom: 25px; }
     #page section#home-solucoes h3 {
-      margin-top: 25px; }
+      margin-top: 0px; }
     #page section#home-solucoes h3, #page section#home-solucoes p {
       display: block;
       margin-bottom: 10px; }
     #page section#home-solucoes h4 {
       margin-bottom: 60px; }
     #page section#home-solucoes img {
-      float: left;
       margin-right: 20px; }
     #page section#home-solucoes .col-md-6 {
       margin-bottom: 40px; }
@@ -298,6 +305,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-repeat: no-repeat; }
       #page section#home-depoimento .dep-conteudo .imgc {
         background-image: url("images/Eu Quero Recomecar Depoimento Ednalva S Moura.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      #page section#home-depoimento .dep-conteudo .imgd {
+        background-image: url("images/Eu Quero Recomecar Depoimento Catia Miyasiro.jpg");
         background-size: cover;
         background-repeat: no-repeat; }
   #page section#parceiros {

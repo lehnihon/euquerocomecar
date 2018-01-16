@@ -62,12 +62,23 @@ section#home-solucoes{
 	padding-top:80px;
 	padding-bottom:60px;
 
+	.cont-left{
+		width:25%;
+		float:left;
+		margin-right:5%;
+	}
+	.cont-right{
+		width:65%;
+		float:right;
+		padding-right:5%;
+	}
+
 	h1{
 		margin-bottom:25px;
 	}
 
 	h3{
-		margin-top:25px;
+		margin-top:0px;
 	}
 
 	h3, p{
@@ -80,7 +91,6 @@ section#home-solucoes{
 	}
 
 	img{
-		float:left;
 		margin-right:20px;
 	}
 
@@ -146,6 +156,11 @@ section#home-depoimento{
 		}
 		.imgc{
 			background-image: url("images/Eu Quero Recomecar Depoimento Ednalva S Moura.jpg");
+			background-size: cover;
+			background-repeat:no-repeat;
+		}
+		.imgd{
+			background-image: url("images/Eu Quero Recomecar Depoimento Catia Miyasiro.jpg");
 			background-size: cover;
 			background-repeat:no-repeat;
 		}

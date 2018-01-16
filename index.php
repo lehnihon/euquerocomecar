@@ -34,32 +34,56 @@ Coaching não é terapia, aconselhamento, psicologia, consultoria ou mentoring. 
 		</div>
 		<div class="row">
 			<div class="col-md-6 text-left fadeInLeft wow">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching1.jpg"; ?>" />
-				<h3>Vida Pessoal ​</h3>
-				<p>Produz mudanças profundas e significativas na qualidade de vida, nível de satisfação, realizações e conquistas do cliente.</p>
+				<div class="row">
+					<div class="cont-left">
+						<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching1.jpg"; ?>" />
+					</div>
+					<div class="cont-right">
+						<h3>Vida Pessoal ​</h3>
+						<p>Produz mudanças profundas e significativas na qualidade de vida, nível de satisfação, realizações e conquistas do cliente.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-6 text-left fadeInRight wow">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching2.jpg"; ?>" />
-				<h3>Vida Profissional ​</h3>
-				<p>Promove evolução na carreira ou negócio do cliente. 
-Essa evolução ocorre como consequência natural do 
-trabalho do coaching.</p>
+				<div class="row">
+					<div class="cont-left">
+						<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching2.jpg"; ?>" />
+					</div>
+					<div class="cont-right">
+						<h3>Vida Profissional ​</h3>
+						<p>Promove evolução na carreira ou negócio do cliente. 
+		Essa evolução ocorre como consequência natural do 
+		trabalho do coaching.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6  text-left fadeInLeft wow">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching3.jpg"; ?>" />
-				<h3>Relacionamento</h3>
-				<p>Trabalha questões como insegurança, timidez, baixa 
-autoestima e diversas outras questões que podem
-estar fixadas no seu inconsciente.</p>
+				<div class="row">
+					<div class="cont-left">
+						<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching3.jpg"; ?>" />
+					</div>
+					<div class="cont-right">
+						<h3>Relacionamento</h3>
+						<p>Trabalha questões como insegurança, timidez, baixa 
+		autoestima e diversas outras questões que podem
+		estar fixadas no seu inconsciente.</p>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-6 text-left fadeInRight wow">
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching4.jpg"; ?>" />
-				<h3>Qualidade de Vida</h3>
-				<p>Indicado para quem está em busca de um
-aprimoramento pessoal, ampliando horizontes 
-e se dispondo a dar novo rumo a sua vida.</p>
+				<div class="row">
+					<div class="cont-left">
+						<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/coaching4.jpg"; ?>" />
+					</div>
+					<div class="cont-right">
+						<h3>Qualidade de Vida</h3>
+						<p>Indicado para quem está em busca de um
+		aprimoramento pessoal, ampliando horizontes 
+		e se dispondo a dar novo rumo a sua vida.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row fadeInUp wow">
@@ -123,7 +147,7 @@ antecipe resultados.   </p>
 			</div>
 		</div><br><br><br>
 		<div class="row">
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 col-md-offset-2 text-center">
 				<div class="dep-conteudo  fadeInUp wow">
 					“Em Julho de 2016 iniciei um processo de coaching com a Regiane Kiiro, com foco em autoconhecimento e desenvolvimento pessoal, algo que eu estava precisando muito naquele momento. <a class="veja-mais-btn"  href="#">veja mais</a><span class="veja-mais">Foram sessões intensas e verdadeiras, que me ajudaram a avançar 5 anos em apenas 3 meses.
 Na verdade eu sinto os efeitos das sessões de coaching até hoje em minha vida e creio que o processo de coaching é contínuo. A ajuda que eu recebi dela fez toda a diferença no meu desenvolvimento pessoal.”</span>
@@ -138,13 +162,23 @@ Na verdade eu sinto os efeitos das sessões de coaching até hoje em minha vida 
 				</div>
 				<h4>Poliana Rafaela Barbosa - SP</h4>
 			</div>
-			<div class="col-md-4 text-center">
+		</div><br>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2 text-center">
 				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.5s">
 					“Quando iniciei a sessão de coaching minha vida estava totalmente sem foco e objetivo. A cada sessão uma descoberta, realização, direcionamento.
- Com o coaching obtive resultados extraordinários em todas as áreas da minha vida.<a class="veja-mais-btn"  href="#">veja mais</a> <span class="veja-mais">Adquiri equilíbrio e respeito familiar, no trabalho e entre amigos. A minha vida mudou completamente. Gratidão eterna e lhe espero em Picos-Piauí para também transformar outras vidas.”</span>
+ <a class="veja-mais-btn"  href="#">veja mais</a> <span class="veja-mais">Com o coaching obtive resultados extraordinários em todas as áreas da minha vida. Adquiri equilíbrio e respeito familiar, no trabalho e entre amigos. A minha vida mudou completamente. Gratidão eterna e lhe espero em Picos-Piauí para também transformar outras vidas.”</span>
 					<div class="dep-foto imgc"></div>
 				</div>
 				<h4>Ednalva S Moura - Picos/PI</h4>
+			</div>
+			<div class="col-md-4 text-center">
+				<div class="dep-conteudo  fadeInUp wow" data-wow-delay="0.25s">
+					“Agradeço a coach Regiane Kiiro  por ter proporcionado algo fantástico dentro de mim, "o autoconhecimento". 
+						<a class="veja-mais-btn"  href="#">veja mais</a><span class="veja-mais">Através do processo de Coaching pude reconhecer principalmente que existiam crenças limitantes que consegui superar e hoje busco pelos meus sonhos que estão prestes a se concretizarem.”</span>
+					<div class="dep-foto imgd"></div>
+				</div>
+				<h4>Catia Miyasiro - São Paulo/SP</h4>
 			</div>
 		</div>
 	</div>

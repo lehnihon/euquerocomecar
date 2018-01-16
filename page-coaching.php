@@ -93,7 +93,6 @@ o que fazer ou por onde começar.     </p>
 		</div>
 	</div>
 </section>
-s
 <?php get_template_part( 'template-parts/parceiros'); ?>
 
 <?php get_footer(); ?>

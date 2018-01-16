@@ -64,7 +64,7 @@ new WOW().init();
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 text-left">
-						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>" /></a>
+						<a class="img-responsive" href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>" /></a>
 					</div>
 					<div class="col-md-9">
 						<div class="menu-responsivo">
